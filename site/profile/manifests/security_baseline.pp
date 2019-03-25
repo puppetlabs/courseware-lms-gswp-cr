@@ -1,6 +1,6 @@
 class profile::security_baseline {
 # OS-specific
-  case $::kernel {
+  case $facts['kernel'] {
     'windows': {
       include profile::baseline::windows::firewall
     }
