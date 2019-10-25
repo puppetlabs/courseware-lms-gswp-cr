@@ -1,7 +1,7 @@
 {
-  "name": "spidersddd-profile",
+  "name": "puppetlms-profile",
   "version": "0.1.0",
-  "author": "spidersddd",
+  "author": "puppetlms",
   "summary": "This is a profile module located in a classroom control-repo",
   "license": "Apache-2.0",
   "source": "",
