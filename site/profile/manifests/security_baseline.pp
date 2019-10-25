@@ -8,7 +8,7 @@ class profile::security_baseline {
       include profile::baseline::linux::ssh_config
     }
     default: {
-    fail('Unsupported operating system!')
+      fail('Unsupported operating system!')
     }
   }
 }
